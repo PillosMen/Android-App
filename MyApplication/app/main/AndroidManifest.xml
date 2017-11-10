@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.adm.myapplication">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <!-- To auto-complete the email text field in the login form with the user's emails -->
     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
     <uses-permission android:name="android.permission.READ_PROFILE" />
@@ -16,21 +18,44 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".LoginActivity"
-            android:label="@string/app_name">
-
-        </activity>
+            android:label="Inicio de sesión" />
         <activity
-            android:name=".Carrera"
-            android:label="@string/lista_carreras">
-
-        </activity>
-        <activity android:name=".CutClass">
+            android:name=".CutClass"
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
+
+      </activity>
+      <activity
+          android:name=".Carreras"
+          android:label="@string/title_activity_carreras" />
+      <activity
+          android:name=".RegistroUsuario"
+          android:label="Registro"
+          />
+      <activity android:name=".Cursos"
+
+          />
+      <activity
+          android:name=".EstructuraDatos"
+          android:label="@string/title_activity_estructura_datos"
+          android:theme="@style/AppTheme.NoActionBar">
+
+
+
+
+
         </activity>
+        <activity android:name=".u1_ed" />
+        <activity
+            android:name=".Perfil"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".u2_ed" />
+
     </application>
 
 </manifest>

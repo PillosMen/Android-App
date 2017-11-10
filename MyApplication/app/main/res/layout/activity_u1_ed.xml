@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Unidad 1"
+            android:textSize="30dp" />
+
+    <LinearLayout
+        android:id="@+id/pregunta1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="1. Recursión utiliza más memoria que iteración debido a que:" />
+
+        <RadioGroup
+            android:id="@+id/opcion_p1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/p1_a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="a .Usa pilas en lugar de colas. " />
+
+            <RadioButton
+                android:id="@+id/p1_b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="b. Cada llamada recursiva tiene que ser almacenada. " />
+
+            <RadioButton
+                android:id="@+id/p1_c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="c. Ambas respuestas (a y b) son correctas. " />
+
+            <RadioButton
+                android:id="@+id/p1_d"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onRadioButtonClicked"
+                android:checked="false"
+                android:text="d. Ninguna de las anteriores." />
+
+        </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/pregunta2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:text="2. A un árbol AVL vacío se se ingresan los siguientes valores: 1,2,3,8,6. Cuántas rotaciones se realizan?" />
+
+            <RadioGroup
+                android:id="@+id/opcion_p2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/p2_a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="a. Ninguna. " />
+
+                <RadioButton
+                    android:id="@+id/p2_b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="b. Una rotación simple. " />
+
+                <RadioButton
+                    android:id="@+id/p2_c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="c. Una rotación doble. " />
+
+                <RadioButton
+                    android:id="@+id/p2_d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="d. Una simple y una doble." />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/pregunta3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone"
+            >
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:text="3. Considerando el siguiente método: Cual operación producirá la mayor cantidad de llamadas recursivas?" />
+
+            <RadioGroup
+                android:id="@+id/opcion_p3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/pregunta3" />
+
+                <RadioButton
+                    android:id="@+id/p3_a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="a. recursivo(-1023) " />
+
+                <RadioButton
+                    android:id="@+id/p3_b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="b. recursivo(0) " />
+
+                <RadioButton
+                    android:id="@+id/p3_c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="c. recursivo(100) " />
+
+                <RadioButton
+                    android:id="@+id/p3_d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="d. recursivo(1023)" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/pregunta4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone"
+            >
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:text=" 4. ¿Como se declara un apuntador.?" />
+
+            <RadioGroup
+                android:id="@+id/opcion_p4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/p4_a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="a. *tipo nombre_var; " />
+
+                <RadioButton
+                    android:id="@+id/p4_b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="b. nombre *tipo_var; " />
+
+                <RadioButton
+                    android:id="@+id/p4_c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="c. tipo *nombre_var; " />
+
+                <RadioButton
+                    android:id="@+id/p4_d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="d. nombre_var *tipo;" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/pregunta5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone"
+            >
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:text=" 5. El número 1010 en binario se representa en decimal como" />
+
+            <RadioGroup
+                android:id="@+id/opcion_p5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/p5_a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="a. 8 " />
+
+                <RadioButton
+                    android:id="@+id/p5_b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="b. 12 " />
+
+                <RadioButton
+                    android:id="@+id/p5_c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="c. 16 " />
+
+                <RadioButton
+                    android:id="@+id/p5_d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="d. Las anteriores respuestas no son correctas" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/calificacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:text="Puntos" />
+
+        <Button
+            android:id="@+id/guardar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Enviar"
+            android:layout_marginTop="25dp"
+            android:onClick="guardarEncuesta"
+            />
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

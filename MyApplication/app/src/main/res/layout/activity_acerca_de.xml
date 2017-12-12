@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CTA"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="36dp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:typeface="serif"
+        android:text="La Coordinación de Tecnologías para el Aprendizaje en el Centro Universitario de Tonalá brinda servicios de tecnologías de la información y comunicación,  que facilitan las actividades del proceso de enseñanza-aprendizaje y los procesos administrativos  de la comunidad universitaria. Dentro de estos servicios se encuentran la gestión de los laboratorios de cómputo,  la administración de las telecomunicaciones, el desarrollo de recursos multimedia entre otros."
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="24dp"
+          />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:typeface="serif"
+        android:text="La Coordinación de Tecnologías para el Aprendizaje cuenta con la siguiente estructura: la Unidad de Cómputo y Telecomunicaciones para el Aprendizaje y la Unidad de Multimedia Instruccional."
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="24dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:text="Misión:"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginLeft="10dp"
+        android:text="La misión de la Coordinación de Tecnologías para el Aprendizaje es administrar y fomentar el uso de las tecnologías de la información y comunicación en los servicios educativos del Centro Universitario de Tonalá como son la docencia, investigación, autoaprendizaje, internacionalización, ciencia y tecnología."/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:text="Visión:"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginLeft="10dp"
+        android:text="Ser la coordinación que se mantiene a la vanguardia en los servicios tecnológicos, que impulsa los procesos de enseñanza- aprendizaje del Centro Universitario de Tonalá, mediante la administración, innovación y capacitación fomentando la calidad de los servicios. "/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="Esta aplicación fue desarrollada por la CTA, en la Unidad de Multimedia.\n\n Version 1.0.0"/>
+</LinearLayout>
+</ScrollView>

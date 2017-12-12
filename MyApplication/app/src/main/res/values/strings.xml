@@ -1,8 +1,25 @@
 <resources>
     <string name="app_name">CutClass</string>
-
+    <string name="nombre">Valentina</string>
     <!-- Strings related to clase carrears -->
     <string name="lista_carreras">Carreras</string>
+
+    <!-- resouce string perfil -->
+    <string name="name_app">Citas Peligrosas</string>
+    <string name="action_add">Añadir</string>
+    <string name="action_favorite">Marcar Favorito</string>
+
+    <string name="title_activity_detail">DetailActivity</string>
+
+    <string name="girl_ipsum">
+        Morbi posuere lorem nec elit dapibus, vitae accumsan mauris pellentesque.
+        Vestibulum a lobortis mi. Vestibulum lacinia molestie semper. Pellentesque
+        ultrices arcu lacus, interdum mollis nibh convallis ut. Aliquam sagittis
+        sem a lacus gravida, eu accumsan purus volutpat. Donec tempus, est id
+        tristique consectetur, lacus ligula dignissim turpis, cursus commodo turpis
+        libero in purus. Phasellus tempus gravida tempor.
+    </string>
+    <string name="action_search">Buscar</string>
 
     <!-- Strings related to login -->
     <string name="prompt_email">Codigo</string>
@@ -16,4 +33,20 @@
     <string name="permission_rationale">"Contacts permissions are needed for providing email
         completions."
     </string>
+    <string name="title_activity_carreras">Carreras</string>
+    <string name="title_activity_estructura_datos">EstructuraDatos</string>
+    <string name="title_activity_perfil">.</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- nombre de menus -->
+    <string name="action_settings">Ajustes</string>
+    <string name="acerca_de">Acerca de</string>
+    <string name="title_activity_barra_inferior">barraInferior</string>
+    <string name="title_home">Inicio</string>
+    <string name="title_dashboard">Administrar</string>
+    <string name="title_notifications">Notificaciones</string>
+    <string name="title_activity_u2_ed">Unidad 2</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_acerca_de">Acerca_de</string>
 </resources>
